@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:background="@color/tools_box_bg"
+    android:scrollbars="none"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@+id/main_left"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="20dp"
+        >
+
+        <RelativeLayout
+            android:id="@+id/main_left_first"
+            android:layout_width="fill_parent"
+            android:layout_height="100dp"
+            android:paddingRight="20dp"
+            android:paddingLeft="20dp"
+            >
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_centerInParent="true"
+                android:src="@drawable/head"
+                />
+
+
+        <!--<Button-->
+            <!--android:id="@+id/button_join"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:background="@drawable/button_click"-->
+            <!--android:gravity="center"-->
+            <!--android:layout_alignParentLeft="true"-->
+            <!--android:layout_centerVertical="true"-->
+            <!--android:textColor="#fafafa"-->
+            <!--android:textSize="20sp"-->
+            <!--android:text="登录"-->
+            <!--/>-->
+            <!--<Button-->
+                <!--android:id="@+id/button_register"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:background="@drawable/button_click_join"-->
+                <!--android:layout_alignParentRight="true"-->
+                <!--android:layout_centerVertical="true"-->
+                <!--android:textColor="#fafafa"-->
+                <!--android:textSize="20sp"-->
+                <!--android:text="注册"-->
+                <!--/>-->
+        </RelativeLayout>
+        <include
+            android:id="@+id/layout_for_one"
+            layout="@layout/layout_for_one" />
+        <include
+            android:id="@+id/layout_for_two"
+            layout="@layout/layout_for_two" />
+        <include
+            android:id="@+id/layout_for_three"
+            layout="@layout/layout_for_three" />
+        <View
+            android:background="#ff1c1c1b"
+            android:layout_width="fill_parent"
+            android:layout_height="1.3299866dip" />
+
+        <View
+            android:background="#ff474745"
+            android:layout_width="fill_parent"
+            android:layout_height="1.0px" />
+
+    </LinearLayout>>
+</ScrollView>

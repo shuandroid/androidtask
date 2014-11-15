@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:id="@+id/main_left_third"
+    android:layout_width="match_parent"
+    android:layout_height="80dp"
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp"
+    android:background="@drawable/background_click"
+    android:layout_below="@+id/main_left_second"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ImageView
+        android:id="@+id/main_left_third_iv"
+        android:layout_marginRight="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:src="@drawable/message"/>
+    <TextView
+        android:id="@+id/main_left_third_tv"
+        android:layout_toRightOf="@+id/main_left_third_iv"
+        android:layout_centerVertical="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#fafafa"
+        android:textSize="20sp"
+        android:text="@string/left_new"
+        />
+    <ImageView
+        android:id="@+id/main_left_third_iv_two"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:src="@drawable/go"
+        />
+</RelativeLayout>

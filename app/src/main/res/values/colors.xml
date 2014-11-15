@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="switch_unselectedBG">#707070</color>
+    <color name="switch_selectedBG">#67bf67</color>
+
+    <color name="activity_addguanzhu_color1">#67bf67</color>
+    <color name="activity_addguanzhu_color2">#67bf67</color>
+    <color name="activity_addguanzhu_color3">#67bf67</color>
+    <color name="activity_addguanzhu_color4">#67bf67</color>
+    <color name="activity_addguanzhu_color5">#67bf67</color>
+    <color name="tools_box_bg">#ff333332</color>
+    <color name="dark">#000</color>
+    <color name="white">#ffffffff</color>
+
+    <eat-comment/>
+    <color name="umeng_fb_color_btn_normal">#333333</color>
+    <color name="umeng_fb_color_btn_pressed">#1495F7</color>
+
+
+
+</resources>

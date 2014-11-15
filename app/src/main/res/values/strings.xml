@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">YouMeng</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- XListView -->
+    <string name="xlistview_header_hint_normal">下拉刷新</string>
+    <string name="xlistview_header_hint_ready">松开刷新数据</string>
+    <string name="xlistview_header_hint_loading">正在加载...</string>
+    <string name="xlistview_header_last_time">上次更新时间：</string>
+    <string name="xlistview_footer_hint_normal">查看更多</string>
+    <string name="xlistview_footer_hint_ready">松开载入更多</string>
+
+    <!-- MenuDrawer -->
+    <string name="textView_first_menuDrawer">首页</string>
+    <string name="textView_second_menuDrawer">Second</string>
+    <string name="textView_third_menuDrawer">Third</string>
+    <string name="textView_forth_menuDrawer">Forth</string>
+    <string name="activity_addguanzhu_one">one</string>
+    <string name="activity_addguanzhu_two">two</string>
+    <string name="activity_addguanzhu_three">three</string>
+    <string name="activity_addguanzhu_four">four</string>
+    <string name="activity_addguanzhu_five">five</string>
+    <!-- main_left_layout -->
+    <string name="left_home">首页</string>
+    <string name="left_new">我的消息</string>
+    <string name="left_setting">设置-反馈</string>
+
+    <!-- youmeng -->
+    <eat-comment />
+
+    <string name="umeng_fb_back">Back</string>
+    <string name="umeng_fb_contact_info">Contact Info</string>
+    <string name="umeng_fb_contact_info_hint">Email, msn, gtalk, or whatever we can find you.</string>
+    <string name="umeng_fb_contact_title">Contact</string>
+    <string name="umeng_fb_contact_update_at">Updated at </string>
+    <string name="umeng_fb_notification_content_formatter_multiple_msg">You received %d new replies from the app developer.</string>
+    <string name="umeng_fb_notification_content_formatter_single_msg">New reply: %s</string>
+    <string name="umeng_fb_notification_ticker_text">Got new reply</string>
+    <string name="umeng_fb_powered_by">Powered by</string>
+    <string name="umeng_fb_reply_content_hint">I want to tell</string>
+    <string name="umeng_fb_reply_date_default">2013-3-12 13:24:00</string>
+    <string name="umeng_fb_send">Send</string>
+    <string name="umeng_fb_title">Feedback</string>
+    <string name="title_activity_conversation">ConversationActivity</string>
+    <string name="title_activity_contact">ContactActivity</string>
+    <string name="title_activity_tell">Tell</string>
+    <string name="action_feedback">Feedback</string>
+
+    <!--for the calculator-->
+    <string name="button1">+</string>
+    <string name="button2">-</string>
+    <string name="button3">*</string>
+    <string name="button4">/</string>
+    <string name="button_0">0</string>
+    <string name="button_00">清除</string>
+    <string name="button_000">=</string>
+    <string name="button_1">1</string>
+    <string name="button_2">2</string>
+    <string name="button_3">3</string>
+    <string name="button_4">4</string>
+    <string name="button_5">5</string>
+    <string name="button_6">6</string>
+    <string name="button_7">7</string>
+    <string name="button_8">8</string>
+    <string name="button_9">9</string>
+    <string name="Button_C">C</string>
+    <string name="Button_k1">(</string>
+    <string name="Button_k2">)</string>
+    <string name="Button_dot">.</string>
+
+</resources>
