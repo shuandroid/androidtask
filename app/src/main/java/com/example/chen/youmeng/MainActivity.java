@@ -16,18 +16,19 @@ public class MainActivity extends SlidingFragmentActivity implements OnClickList
     private Fragment mContent;
     @Override
     public void onCreate(Bundle savedInstanceState) {
+
         super.onCreate(savedInstanceState);
         initSlidingMenu();
         setContentView(R.layout.activity_main);
-        initView();
+        //initView();   //左上按钮，来展示侧滑菜单
     }
 
 
-    private void initView() {
-        ivTitleBtnLeft = (ImageButton)this.findViewById(R.id.ivTitleBtnLeft);
-        ivTitleBtnLeft.setOnClickListener(this);
-
-    }
+//    private void initView() {
+//        ivTitleBtnLeft = (ImageButton)this.findViewById(R.id.ivTitleBtnLeft);
+//        ivTitleBtnLeft.setOnClickListener(this);
+//
+//    }
 
     private void initSlidingMenu() {
         mContent = new Fragment_view();
@@ -52,12 +53,13 @@ public class MainActivity extends SlidingFragmentActivity implements OnClickList
         mSlidingMenu.setFadeEnabled(true);// 设置滑动时菜单的是否淡入淡出
         mSlidingMenu.setBehindScrollScale(0.333f);// 设置滑动时拖拽效果
     }
+
     @Override
     public void onClick(View v) {
         switch (v.getId()) {
-            //case R.id.:
-            //   mSlidingMenu.showMenu(true);
-            //   break;
+//            case R.id.ivTitleBtnLeft:
+//                mSlidingMenu.showMenu(true);
+//                break;
             default:
                 break;
         }
