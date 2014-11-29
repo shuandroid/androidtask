@@ -11,7 +11,7 @@
     <TextView
         android:id="@+id/tv"
         android:layout_width="fill_parent"
-        android:layout_height="60dip"
+        android:layout_height="100dip"
         android:layout_marginRight="5dip"
         android:layout_marginLeft="5dip"
         android:background="#FFFFFF"
@@ -226,6 +226,7 @@
         android:id="@+id/relative5"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
+        android:gravity="bottom"
         android:paddingTop="10dip">
 
         <Button
@@ -251,10 +252,10 @@
             android:layout_height="70dp" />
 
         <Button
-            android:id="@+id/Button_c"
+            android:id="@+id/Button_ce"
             android:textSize="35sp"
             android:textColor="#fff"
-            android:text="@string/Button_C"
+            android:text="@string/Button_CE"
             android:background="@drawable/bg_border"
             android:layout_toRightOf="@+id/Button_k2"
             android:layout_marginRight="5dp"
@@ -267,7 +268,7 @@
             android:textColor="#fff"
             android:text="@string/button_00"
             android:background="@drawable/bg_border"
-            android:layout_toRightOf="@+id/Button_c"
+            android:layout_toRightOf="@+id/Button_ce"
             android:layout_width="85dp"
             android:layout_height="70dp" />
     </RelativeLayout>

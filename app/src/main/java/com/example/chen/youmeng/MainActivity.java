@@ -31,7 +31,7 @@ public class MainActivity extends SlidingFragmentActivity implements OnClickList
 //    }
 
     private void initSlidingMenu() {
-        mContent = new Fragment_view();
+        mContent = new Fragment_calculator();
         getSupportFragmentManager()
                 .beginTransaction()
                 .replace(R.id.content_frame, mContent)

@@ -55,7 +55,7 @@
     <string name="button3">*</string>
     <string name="button4">/</string>
     <string name="button_0">0</string>
-    <string name="button_00">清除</string>
+    <string name="button_00">C</string>
     <string name="button_000">=</string>
     <string name="button_1">1</string>
     <string name="button_2">2</string>
@@ -66,7 +66,7 @@
     <string name="button_7">7</string>
     <string name="button_8">8</string>
     <string name="button_9">9</string>
-    <string name="Button_C">C</string>
+    <string name="Button_CE">CE</string>
     <string name="Button_k1">(</string>
     <string name="Button_k2">)</string>
     <string name="Button_dot">.</string>

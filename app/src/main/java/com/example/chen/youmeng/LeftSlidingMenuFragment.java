@@ -53,7 +53,7 @@ public class LeftSlidingMenuFragment extends Fragment implements OnClickListener
 //                //
 //                break;
             case R.id.layout_for_one:          //第二个即首页的东西
-                newContent = new Fragment_view();
+                newContent = new Fragment_calculator();
                 thelayout_for_one.setSelected(true);
                 thelayout_for_two.setSelected(false);
                 thelayout_for_three.setSelected(false);
